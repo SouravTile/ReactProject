@@ -1,3 +1,13 @@
+/*
+create following component in react
+1. Home
+2. Register
+3. Nopage
+when you load app it display welcome to smvita
+and when you click on Register button the Register screen will visible with textbox Name, Department, Email and one submit button.
+on submit form data should be added to database if user type invalid url display Nopage 
+*/
+
 import { useState } from "react";
 import {Outlet,Link, useNavigate } from "react-router-dom";
 
@@ -44,12 +54,3 @@ function App() {
 }
 
 export default App;
-/*
-create following component in react
-1. Home
-2. Register
-3. Nopage
-when you load app it display welcome to smvita
-and when you click on Register button the Register screen will visible with textbox Name, Department, Email and one submit button.
-on submit form data should be added to database if user type invalid url display Nopage 
-*/
