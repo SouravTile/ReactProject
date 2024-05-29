@@ -1,7 +1,6 @@
 import { useState } from "react";
 import {Outlet,Link, useNavigate } from "react-router-dom";
 
-
 function App() {
   const [isloggedin, setLoggedin] = useState(null);
   const [readval, setVal] = useState(" ");
